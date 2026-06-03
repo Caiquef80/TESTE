@@ -32,6 +32,7 @@ git show <hash>
 git branch -m <nome_da_branch>
 
 #CRIAR UMA NOVA BRANCH
+
 git branch <nome_da_branch>
 
 #DELETAR UMA BRANCH
@@ -39,3 +40,9 @@ git branch -d <nome_da_branch>
 
 #TROCAR UMA BRANCH
 git switch <nome_da_branch>
+
+#MESCLAR UMA BRANCH NA OUTRA
+git merge <nome_da_branch>
+
+#MOSTRAR AUTORES DE UM ARQUIVO
+git blame <nome_do_arquivo>
