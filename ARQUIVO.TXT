@@ -1,0 +1,12 @@
+#INICIALIZAR UM REPOSITORIO 
+GIT INIT .
+
+#Mostrar o estado atual do repositorio
+git status
+
+#ADICIONAR UM ARQUIVO EM STAGE
+git add <nome_do_arquivo>
+
+#REMOVER ARQUIVO DO STAGE
+git rm --cached <nome_do_arquivo>
+
