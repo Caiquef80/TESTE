@@ -10,3 +10,12 @@ git add <nome_do_arquivo>
 #REMOVER ARQUIVO DO STAGE
 git rm --cached <nome_do_arquivo>
 
+#SALVAR O ESTADO DO REPOSITORIO
+git commit -m "sua msg"
+
+#MOSTRAR O HISTORICO DE COMMITS
+git log
+git log --oneline
+
+#MOSTRAR AS ALTERAÇÕES NO REPOSITORIO
+git diff 
