@@ -46,3 +46,7 @@ git merge <nome_da_branch>
 
 #MOSTRAR AUTORES DE UM ARQUIVO
 git blame <nome_do_arquivo>
+
+#ADICIONAR TODOS OS ARQUIVOS NO STAGE
+
+git add .
