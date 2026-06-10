@@ -33,3 +33,6 @@ git branch -m <nome_da_branch>
 
 #ADD E SALVAR , COMITAR OS ARQUIVOS MONITORADOS(TRACK)
 git commit -am "sua msg"
+
+#DELETAR FORÇADAMENTE UMA BRANCH
+git branch -D <nome_da_branch>
