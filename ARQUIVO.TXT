@@ -31,3 +31,5 @@ git show <hash>
 #RENOMEAR A BRANCH ATUAL
 git branch -m <nome_da_branch>
 
+#ADD E SALVAR , COMITAR OS ARQUIVOS MONITORADOS(TRACK)
+git commit -am "sua msg"
