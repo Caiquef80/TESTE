@@ -53,3 +53,12 @@ git add .
 
 #DELETAR FORÇADAMENTE UMA BRANCH
 git branch -D <nome_da_branch>
+
+#COMMITAR E SUBSTITUIR O ULTIMO ARQUIVO
+git commit --amend
+
+#VOLTAR PARA UM COMMIT ANTERIOR(LOCAL)
+git reset <hash_do_commit>
+
+#DESFAZER UM COMMIT (REMOTO)
+git revert <hash_do_commit>
