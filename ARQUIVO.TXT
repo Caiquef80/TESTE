@@ -62,3 +62,22 @@ git reset <hash_do_commit>
 
 #DESFAZER UM COMMIT (REMOTO)
 git revert <hash_do_commit>
+
+#CLONAR UM REPOSITORIO REMOTO
+git clone <URL>
+
+#VERIFICAR ENDEREÇO REMOTO 
+git remote -v
+
+#ADICIONAR ENDEREÇO REMOTO EM UM REPOSITORIO LOCAL
+git remote add <url>
+
+#ENVIAR ALTERAÇOES E DEFINIR A UPSTREAM(REMOTO) COM A BRANCH LOCAL
+git push -u origin <nome_da_branch>
+
+#ENVIAR ALTERAÇOES PARA O GIT HUB
+git push
+git push origin <nome_da_branch>
+
+#ENVIAR ALTERAÇOES DE UMA BRANCH LOCAL PARA UMA BRANCH REMOTA
+git push origin <nome_da_branch_local>:<nome_da_branch_remoto>
