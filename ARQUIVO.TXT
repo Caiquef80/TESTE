@@ -50,3 +50,6 @@ git blame <nome_do_arquivo>
 #ADICIONAR TODOS OS ARQUIVOS NO STAGE
 
 git add .
+
+#DELETAR FORÇADAMENTE UMA BRANCH
+git branch -D <nome_da_branch>
