@@ -83,3 +83,10 @@ git push origin <nome_da_branch>
 
 #ENVIAR ALTERAÇOES DE UMA BRANCH LOCAL PARA UMA BRANCH REMOTA
 git push origin <nome_da_branch_local>:<nome_da_branch_remoto>
+
+
+#BAIXAR AS ATUALIZAÇÕES DO REPOSITORIO REMOTO SEM MESCLAR
+git fetch <nome_da_branch>
+
+#BAIXAR AS ATUALIZAÇÕES DO REPOSITORIO REMOTO E MESCLAR
+git pull <nome_da_branch>
